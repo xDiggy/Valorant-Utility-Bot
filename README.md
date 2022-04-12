@@ -53,3 +53,5 @@ This is my first time attempting to make a Discord bot, so the code may be
 jank. Please star this repo if you use it in any capacity or would like to
 support me for free. If you would like to add/change/help with anything
 please reach out to me and it will be greatly appreciated.
+
+Please show support to https://github.com/Henrik-3 and their API: https://github.com/Henrik-3/unofficial-valorant-api as this was the API that is used to retrieve player data.
