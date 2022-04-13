@@ -28,10 +28,12 @@ Commands:
       elo
       
       
-  !match [MATCH ID]
+  !match [MATCH ID] [REIGON]
   
   
       **ONLY WORKS FOR BATTLEFY MATCHUPS**
+      
+      [REIGON]: ap, br, eu, kr, latam, na
       
       
     - Will return the players ranks on each team of the
