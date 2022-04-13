@@ -145,7 +145,7 @@ function newSwitch(cmd, args, channelID, message, data){
             msgs += '\tWill return the current players current rank, current RR\n'
             msgs += '\tand their total ELO.\n\n'
             msgs += '`match [MATCH ID] [REIGON]`\n'
-            msgs += '`\t[REIGON] options: ap, br, eu, kr, latam, na`\n\n'
+            msgs += '\t`[REIGON] options: ap, br, eu, kr, latam, na`\n\n'
             msgs += '\t`[MATCHID]: This will be a string of numbers that you are`\n'
             msgs += '\table to find in the url of the matchup page. It is the very last\n'
             msgs += '\tsection of the url, everything following the last /. Copy this ID\n'
