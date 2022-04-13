@@ -1,0 +1,9 @@
+v1.0.0
+	- First finished version of bot, written with Discord.io
+
+v2.0.0
+	- Changed the code to work with Discord.js rather than Discord.io
+
+v2.0.1
+	- Added [REIGON] field to !match under !info
+		*Necessary field for API*
