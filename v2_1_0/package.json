@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "unofficial-valorant-api": "^1.0.4",
+    "xhr2": "^0.2.1"
+  }
+}

@@ -7,3 +7,17 @@ v2.0.0
 v2.0.1
 	- Added [REIGON] field to !match under !info
 		*Necessary field for API*
+
+v2.1.0
+	- Rebuilt code in order for better readability and consistency
+	- Bot now sends Embeds rather than plain text messages
+	- !match -> Rebuilt to fix inconsistency
+		- Would crash bot in some cases because of axios errors
+	- !player ->
+		+ tracker.gg link to profile
+		+ Current rank image
+		+ embed color reflecting current rank
+		+ Peak rank
+	- Removed need for user to input region, calls anoter API function
+		that returns the players account information, including region
+	- Created Discord Server for support needs with link in !info
