@@ -68,7 +68,7 @@ bot.on("messageCreate", message => {
         // Removing command from array
         args = args.splice(1)
         // Callling command
-        command(command, args, data, message)
+        commandExec(command, args, data, message)
     }
 });
 
@@ -76,7 +76,7 @@ bot.on("messageCreate", message => {
 bot.login('YOUR.BOT.TOKEN.HERE')
 
 //----------------------------------------MESSAGE TO COMMAND----------------------------------------
-function command (command, args, data){
+function commandExec (command, args, data){
     if (command == 'info'){
         info(data)
     } else if (command == 'status'){
