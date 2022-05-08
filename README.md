@@ -6,51 +6,38 @@ as well as players ranks from a battlefy matchup page.
 Commands:
   !info
   
-  
     - Shows the user all of the commands
     
     
   !status
   
+    - Sends messages about the RIOT API
+      and the bot.
+        *Does not send anything if bot is down lol*      
+      
+  !player [NAME]#[TAG]
   
-    - Sends message if the bot is running,
-      does not return if bot is down
-      
-      
-  !player [NAME]#[TAG] [REIGON]
-  
-  
-      [REIGON]: ap, br, eu, kr, latam, na
-      
-      
     - If the given player profile is valid and public,
-      will return the current rank, current rr, and total
-      elo
+      will return the current rank and peak rank. Will
+      also show current rank icon in the embed
       
       
-  !match [MATCH ID] [REIGON]
-  
-  
-      **ONLY WORKS FOR BATTLEFY MATCHUPS**
+  !match [MATCH ID]
+    
+      **ONLY WORKS FOR BATTLEFY MATCHUPS**      
       
-      [REIGON]: ap, br, eu, kr, latam, na
-      
-      
-    - Will return the players ranks on each team of the
-      given match up page
-      
+    - Will return current and peak ranks for each player
+      on the inputted teams      
       
   !support
   
-  
-    - Where you can find me
+    - Links where you can find support
     
     
   !donate
   
-  
     - Help keeps the bot up and running
-    
+   
 This is my first time attempting to make a Discord bot, so the code may be
 jank. Please star this repo if you use it in any capacity or would like to
 support me for free. If you would like to add/change/help with anything
