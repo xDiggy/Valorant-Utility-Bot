@@ -1,0 +1,11 @@
+OTYyMTYwOTc4OTE5ODMzNjgw.YlDgPQ.Qim9Kb1CQfSsA1oqN56UOciUxu0
+
+https://discord.com/api/oauth2/authorize?client_id=962160978919833680&permissions=274877983744&scope=bot
+
+bot
+	send
+	send in thread
+	mange
+	read hsit
+	
+	read messages/view chan.
