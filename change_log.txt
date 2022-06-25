@@ -21,3 +21,13 @@ v2.1.0
 	- Removed need for user to input region, calls anoter API function
 		that returns the players account information, including region
 	- Created Discord Server for support needs with link in !info
+
+v2.1.1
+
+v2.2.0
+	- !player ->
+		+ Ascendant rank compatibility
+		+ Ascendant rank icon + embed color
+	- New method of comparing peak ranks of each act
+		- Inefficient, but easiest way with differnt rank
+		  numbers (EP.5 and after)
