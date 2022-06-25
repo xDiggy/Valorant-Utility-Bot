@@ -235,11 +235,7 @@ async function player_stats (args, data){
     // var icon = temp[0] + temp[1] + ''
     //-------------------------------------
 
-    // Creating and sending embedded message 
-    // console.log(cRankInt)
-    // console.log(cRankPatched)
-    // console.log(pRankPatched)
-    console.log(player)
+    // Creating and sending embedded message
     const playerEmbed = new MessageEmbed()
         .setColor(rank_colors[get_rank_int(cRankPatched)])
         .setTitle(IGN[0] + "#" + IGN[1])
